@@ -1,5 +1,6 @@
 set nocompatible              " required
 filetype off                  " required
+filetype plugin on
 set encoding=utf-8
 set nu
 set clipboard=unnamed
@@ -47,6 +48,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'kien/ctrlp.vim'
+Plugin 'Lokaltog/vim-powerline'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -56,6 +58,7 @@ filetype plugin indent on    " required
 let g:SimpylFold_docstring_preview=1
 let g:ycm_autoclose_preview_window_after_completion=1
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
+set laststatus=2
 
 if has('gui_running')
   set background=dark
@@ -65,10 +68,12 @@ else
 endif
 
 " --------- Hotkeys ---------------
+let mapleader = "\<Space>"
 
 autocmd FileType python map <buffer> <F7> :call Flake8()<CR>
 
 map <C-n> :NERDTreeToggle<CR>
+map <leader>f :NERDTreeFind<CR>
 
 call togglebg#map("<F5>")
 
@@ -80,3 +85,4 @@ nnoremap <C-H> <C-W><C-H>
 
 " Enable folding with the spacebar
 nnoremap <space> za
+

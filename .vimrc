@@ -11,13 +11,6 @@ syntax on
 set foldmethod=indent
 set foldlevel=99
 
-if has('gui_running')
-  set background=dark
-  colorscheme solarized
-else
-  colorscheme zenburn
-endif
-
 au BufNewFile,BufRead *.py:
     \ setlocal tabstop=4
     \ setlocal softtabstop=4
@@ -61,6 +54,13 @@ filetype plugin indent on    " required
 let g:SimpylFold_docstring_preview=1
 let g:ycm_autoclose_preview_window_after_completion=1
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
+
+if has('gui_running')
+  set background=dark
+  colorscheme solarized
+else
+  colorscheme zenburn
+endif
 
 " --------- Hotkeys ---------------
 

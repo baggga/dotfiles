@@ -3,7 +3,7 @@ filetype off                  " required
 filetype plugin on
 set encoding=utf-8
 set nu
-set clipboard=unnamed
+set clipboard=unnamedplus     " set to unnamed for windows
 set mouse=a
 let python_highlight_all=1
 syntax on
@@ -82,7 +82,3 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-
-" Enable folding with the spacebar
-nnoremap <space> za
-

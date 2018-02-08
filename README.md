@@ -1,4 +1,10 @@
-# Installation
+# Development configs
+Tmux and vim configuration files.
+
+## Prerequisites
+Tmux and vim need to be installed.
+
+## Installing
 
 1. Clone configs:
 ```

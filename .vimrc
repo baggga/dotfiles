@@ -12,6 +12,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-airline/vim-airline'
@@ -53,4 +54,9 @@ if &term =~ '256color'
   " see also http://snk.tuxfamily.org/log/vim-256color-bce.html
   set t_ut=
 endif
+
+let g:netrw_list_hide= '.*\.pyc$'
+let g:netrw_liststyle=3         " tree
+
+set clipboard=unnamedplus
 

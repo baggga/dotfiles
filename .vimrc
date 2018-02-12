@@ -39,6 +39,7 @@ nnoremap <C-\> :call MyNerdToggle()<CR>
 let NERDTreeIgnore = ['\.pyc$']
 let NERDTreeShowHidden=1
 
+" =================
 
 set background=dark
 let g:solarized_termcolors=256

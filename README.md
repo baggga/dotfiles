@@ -12,7 +12,7 @@ git clone https://github.com/art-vasilyev/dev-configs.git /tmp/dev-configs/
 ```
 2. Copy configs to home directory:
 ```
-cp -r /tmp/{.vim,.vimrc,.tmux.conf} ~/
+cp -r /tmp/dev-configs/{.vim,.vimrc,.tmux.conf} ~/
 ```
 3. Install vim plugin manager (Vundle):
 ```

@@ -16,7 +16,9 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+Plugin 'vim-airline/vim-airline-theme
+Plugin 'fatih/vim-go'
+Plugin 'Shougo/neocomplete'
 
 call vundle#end()
 
@@ -38,6 +40,9 @@ nnoremap <C-\> :call MyNerdToggle()<CR>
 
 let NERDTreeIgnore = ['\.pyc$']
 let NERDTreeShowHidden=1
+
+" neocomplete settings
+let g:neocomplete#enable_at_startup = 1
 
 " =================
 

@@ -6,12 +6,7 @@ Tmux and vim need to be installed.
 
 ## Installing
 
-1. Clone repository and change directory:
+Clone repository and run install script:
 ```
-git clone https://github.com/art-vasilyev/dotfiles.git
-cd dotfiles
-```
-2. Run `install.sh`:
-```
-./install.sh
+git clone https://github.com/art-vasilyev/dotfiles.git && cd dotfiles && ./install.sh
 ```

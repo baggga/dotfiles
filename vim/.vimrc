@@ -30,7 +30,7 @@ let g:jedi#popup_select_first = 0
 " ----------------------------------
 
 set background=dark
-colorscheme snow
+silent! colorscheme snow
 
 if &term =~ '256color'
   " disable Background Color Erase (BCE) so that color schemes

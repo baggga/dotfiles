@@ -31,6 +31,7 @@ let g:jedi#popup_select_first = 0
 
 set background=dark
 silent! colorscheme snow
+silent! let g:airline_theme='snow_dark'
 
 if &term =~ '256color'
   " disable Background Color Erase (BCE) so that color schemes

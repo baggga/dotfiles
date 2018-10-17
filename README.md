@@ -13,5 +13,4 @@ git clone https://github.com/art-vasilyev/dotfiles.git && cd dotfiles && ./insta
 
 ## Screenshot
 
-[[https://github.com/art-vasilyev/dotfiles/tree/master/img/screenshot.png|alt=screenshot]]
-
+![Terminal screenshot](https://github.com/art-vasilyev/dotfiles/blob/master/img/screenshot.png)
